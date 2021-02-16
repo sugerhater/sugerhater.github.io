@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- To align images better and to practice what I learned, an extra css file is used to practice the @media function -->
+    <link rel="stylesheet" href="assets/portfolio-css.css">
+  <script src="https://kit.fontawesome.com/0263f3de0f.js" crossorigin="anonymous"></script>
+
+    <style>
+        html { height: 100%; }
+        body {
+        min-height:100%; 
+        position:relative; 
+        padding-bottom:[footer-height] 
+  } 
+        .footer { 
+        position: absolute; 
+        left: 0 ; right: 0; bottom: 0; 
+        height:[footer-height] 
+        }
+        /* Extra style set for image is needed only for this html */
+        img {width: 350px;height: 350px;}
+        
+        i {
+      margin-left: 1rem;
+    }
+      </style>
+  
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div>
+        <a class="navbar-brand" href="index.html">Kehong Li</a>
+        <a class="mr-auto" href="https://www.linkedin.com/in/kehong-li-aa26b5136/" target="_blank"><i
+            class="fab fa-linkedin-in fa-2x" style="color:white">
+          </i></a>
+        <a class="mr-auto" href="https://github.com/sugerhater" target="_blank"><i class="fab fa-github fa-2x"
+            style="color:white"></i>
+          </i></a>
+      </div>
+  
+
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse text-right " id="navbarSupportedContent">
+          <ul class="navbar-nav text-right ml-auto"> 
+            <!-- changed  text left to text-right -->
+            <!-- changed mr to ml -->
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+              <!-- <a class="nav-link" href="#">About</a> -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            
+            
+          </ul>
+          <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form> -->
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row ml-2">
+          <div class="col-sm-12 col-md-8 mt-5">
+              <h1>Portfolio</h1>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+
+          
+
+
+            <div id = portfolioContent class="col-sm-12 col-lg-11 bg-secondary mb-4 py-3">
+
+              <div class="card" style="width: 18rem;">
+                <img src="Images/COVID-tracker.PNG" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">COVID-tracker</h5>
+                  <p class="card-text">Quick access to each states data of COVID-19, and compare data with other countries in the world.</p>
+                  <a href="https://wpb911.github.io/grpr5COVID/" target="_blank" class="btn btn-primary">Go to page</a>
+                  <a href="https://github.com/wpb911/grpr5COVID" target="_blank" class="btn btn-primary">Repo page</a>
+                </div>
+              </div>
+
+
+                <!-- <a href="Images/400px.PNG"><img class="img-fluid rounded my-3 " src="Images/400px.PNG" alt="400px width demo"></a>
+                <a href="Images/768px.PNG"><img class="img-fluid rounded my-3 " src="Images/768px.PNG" alt="768px width demo"></a>
+                <a href="Images/992px.PNG"><img class="img-fluid rounded my-3 " src="Images/992px.PNG" alt="992px width demo"></a>
+                <a href="Images/I-can-do-this.jpg"><img class="img-fluid rounded my-3 " src="Images/I-can-do-this.jpg" alt="I can do it!"></a>
+                <a href="Images/Githut.PNG"><img class="img-fluid rounded my-3 " src="Images/Githut.PNG" alt="Your Name"></a> -->
+
+            </div>
+          </div>
+
+    </div>    
+
+      <div class="footer fixed-bottom text-center">
+        Copyright © 2020, All Rights Reserved.
+      </div>
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
