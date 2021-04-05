@@ -1,0 +1,31 @@
+header {
+  position: fixed;
+  margin-bottom: 100px;
+  top: 0;
+  z-index: 1;
+  margin: auto;
+  left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -10%)
+  /* margin-right: -50%; */
+  /* align-self: center; */
+  /* align-items: center */
+  /* align-content:center */
+  /* text-align: center; */
+}
+nav{
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  margin:auto;
+}
+nav a {
+  color: #2387d8!important;
+}
+
+nav a:hover {
+  /* text-transform: uppercase; */
+  font-weight: 500;
+  /* font-size: 1.1rem; */
+  color: #2387d8!important;
+}

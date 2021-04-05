@@ -1,0 +1,51 @@
+.skills {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+ul{
+  columns: 3;
+  list-style-type: disc;
+  list-style-position: inside;
+  text-align:left;
+}
+.skills h3 {
+  font-family: 'Raleway', sans-serif;
+  color: #56738C;
+  padding-bottom: 20px;
+}
+
+.skills i {
+  padding-top: 10px;
+  padding-bottom: 25px;
+  color: #56738C;
+}
+
+
+#skillsIcon {
+  padding-top: 20px;
+  font-size: 45px;
+}
+
+#skillsIcon i {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.skillsCard {
+  width: 80%;
+  min-height: 400px;
+  padding: 30px;
+  margin: 10px;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 0 30px -5px hsl(0deg 0% 21% / 45%);
+}
+
+.skills .skillsCard {
+  transform: translateY(-100px);
+  background-color: #F2EBEC;
+}

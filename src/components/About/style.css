@@ -1,0 +1,36 @@
+#about {
+  background-color: #56738C;
+  color: #F2EBEC;
+  display: flex;
+  padding: 20px 30px;
+  padding-bottom: 200px;
+  max-width: 100%;
+  /* text-align: center; */
+}
+
+#about p{
+  font-size:20px;
+  width: 70%;
+  position:center ;
+  margin:auto;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 0.5rem;
+  /* text-align:center */
+}
+/* p #fact{
+  font-size: 5px;
+} */
+/* #about p h5{
+  width:30rem;
+} */
+
+.selfIntro {
+  width: 80%;
+}
+
+#about h1 {
+  margin-top: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+
+}

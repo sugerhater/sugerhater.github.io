@@ -1,0 +1,31 @@
+@media (min-width: 320px) and (max-width: 650px) {
+  header {
+      margin-bottom: 50px;
+  }
+  #intro {
+      margin-top: 20px;
+  }
+  #introLines {
+      margin-top: 70px;
+      text-align: center;
+  }
+  h1 {
+      font-size: 60px;
+  }
+
+  #portfolio {
+      padding-right: 15px!important;
+      padding-left: 15px!important;
+  }
+};
+
+html, body {
+    background-color: #c5d62d!important;
+    height: 100%;
+  }
+
+.btn {
+    background-color: #F2D0A7;
+    border: #F2D0A7;
+    color: #2182BF;
+  }

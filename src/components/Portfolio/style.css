@@ -1,0 +1,37 @@
+#portfolio {
+  min-width: 100%;
+  padding-right: 60px!important;
+  padding-left: 60px!important;
+}
+
+#portfolio {
+  background: #F2EBEC;
+  margin-bottom: 50px;
+}
+
+#portfolio h1 {
+  color: #56738C;
+  margin-top:2.5rem;
+}
+
+#portfolioHeader{
+  text-align: center;
+  justify-content: center;
+}
+
+#portfolio h4 {
+  color: #56738C;
+  margin-bottom: 50px;
+}
+
+#portfolio a:hover {
+  color: #F2D0A7;
+  font-weight: 500;
+  /* text-transform: uppercase; */
+  background-color: #2182BF;
+}
+
+#gitHub a:hover {
+  background-color: #F2EBEC;
+  color: #56738C;
+}

@@ -1,0 +1,68 @@
+#intro {
+  width: 100%;
+  margin: auto;
+  padding-top: 8%;
+  color: #56738C;
+  font-family: 'Raleway', sans-serif;
+  min-height: 80vh;
+}
+
+/* #intro h5 h6 {
+  width: 50%;
+} */
+
+/* @keyframes bouncing {
+  0% {bottom: 0;}
+  50% {bottom: 20px;}
+  100% {bottom: 0;}
+} */
+@keyframes bouncing {
+  0% {bottom: 25vh;}
+  50% {bottom: 20vh;}
+  100% {bottom: 25vh;}
+}
+
+#intro img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.subtitle {
+  font-family: 'Raleway', sans-serif;
+}
+
+#introLines {
+  margin: auto;
+}
+
+#kl {
+  color: #41586b;
+  font-weight: 1000;
+}
+
+#selfIntro{
+  padding-top: 50px;
+}
+
+.arrow {
+  font-size: x-large;
+  text-align: center;
+  animation: bouncing 1s infinite ease-in-out;
+  /* position: relative; */
+  position: absolute;
+  bottom: 0;
+  /* bottom: 80vh; */
+  display: block;
+  left: 50%;
+}
+
+h1 {
+  /* font-size: 70px; */
+  color: #afbdc9;
+  font-family: 'Roboto', sans-serif;
+}
+
+.subtitle {
+  font-family: 'Raleway', sans-serif;
+}

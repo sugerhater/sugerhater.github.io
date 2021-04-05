@@ -1,0 +1,11 @@
+#thankYou {
+  background-color: #56738C;
+  display: flex;
+  padding: 80px 30px;
+  padding-bottom: 160px;
+  justify-content: center;
+}
+
+#words {
+  text-decoration: underline;
+}
