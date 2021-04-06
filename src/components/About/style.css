@@ -8,18 +8,15 @@
   /* text-align: center; */
 }
 
-#about p{
+/* #about p{
   font-size:20px;
   width: 70%;
   position:center ;
   margin:auto;
   font-family: 'Raleway', sans-serif;
   margin-bottom: 0.5rem;
-  /* text-align:center */
-}
-/* p #fact{
-  font-size: 5px;
 } */
+
 /* #about p h5{
   width:30rem;
 } */
@@ -34,3 +31,33 @@
   text-align: center;
 
 }
+
+@media (max-width:850px){
+  #one #two {
+  font-size:17px;
+  width: 100%;
+  position:center ;
+  margin:auto;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 0.5rem;
+  }
+  #fact{
+    font-size: 13px;
+  }
+}
+
+@media(min-width:851px){
+  /* #one #two  */
+  p {
+    font-size:20px;
+    width: 60%;
+    position:center ;
+    margin:auto;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0.5rem;
+  }
+  #fact{
+    font-size: 15px;
+  }
+}
+
