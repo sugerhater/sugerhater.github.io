@@ -13,7 +13,7 @@ const Footer = () => {
     <a target="_blank" rel="noopener noreferrer" href="kehong0926@gmail.com">
         <i class="fas fa-envelope"></i>
     </a>
-    <a target="_blank" rel="noopener noreferrer" href={`${process.env.PUBLIC_URL}/assets/Full-Stack-KEHONG_LI.pdf`}>
+    <a target="_blank" rel="noopener noreferrer" href={`${process.env.PUBLIC_URL}/assets/NewKehongLiResume.pdf`}>
         <i class="fas fa-file-pdf"></i>
     </a>
     <a target="_blank" rel="noopener noreferrer" href="tel:614-290-5327">
