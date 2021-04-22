@@ -13,7 +13,7 @@ const About = () =>{
       <p id = "one" className="margin-x auto">
        Hi, I am Kehong Li. I am from a small village in the middle of China.
        I came to the U.S. in 2013 as a student and enlisted in the Army Reserve a few years later.
-       I had the privilege to become a naturalized citizen on Sep 26th,2019.
+       I had the privilege to become a naturalized citizen on Sep 26th, 2019.
       </p>
       {/* <p >
       After I became a US citizen, I worked for Team Fishel for 6 months and then decided to enroll in an OSU full stack web developer boot camp to start my software developer career. I think I am a really good student in the boot camp and ready for a web developing job.
